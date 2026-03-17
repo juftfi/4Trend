@@ -1,0 +1,35 @@
+# ══════════════════════════════════════════════════════════════════════
+# Flap Trending — Apache .htaccess configuration
+# Rename this file to .htaccess in your web root
+# ══════════════════════════════════════════════════════════════════════
+
+Options -Indexes
+RewriteEngine On
+
+# SPA fallback — all routes → index.html
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^(.*)$ /index.html [L,QSA]
+
+# Proxy API to backend (requires mod_proxy)
+<IfModule mod_proxy.c>
+    ProxyPreserveHost On
+    ProxyPass /api http://127.0.0.1:3001/api
+    ProxyPassReverse /api http://127.0.0.1:3001/api
+    ProxyPass /flap-gql http://127.0.0.1:3001/flap-gql
+    ProxyPassReverse /flap-gql http://127.0.0.1:3001/flap-gql
+    ProxyPass /moralis-api http://127.0.0.1:3001/moralis-api
+    ProxyPassReverse /moralis-api http://127.0.0.1:3001/moralis-api
+    ProxyPass /bot-trending http://127.0.0.1:3001/bot-trending
+    ProxyPassReverse /bot-trending http://127.0.0.1:3001/bot-trending
+</IfModule>
+
+# Cache compiled assets
+<FilesMatch "\.(js|css|woff2?|ttf|svg|webp|png|jpg)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+</FilesMatch>
+
+# No-cache for HTML
+<FilesMatch "\.html$">
+    Header set Cache-Control "no-cache, no-store, must-revalidate"
+</FilesMatch>
