@@ -1,6 +1,6 @@
 <div align="center">
-  <img src="logo.png" alt="Flap Trending" width="160" />
-  <h1>Flap Trending</h1>
+  <img src="logo.png" alt="4Trend" width="160" />
+  <h1>4Trend</h1>
   <p><strong>Real-Time BSC Token Analytics Dashboard</strong></p>
   <p>
     <a href="https://4trend.vercel.app"><img src="https://img.shields.io/badge/Live-4trend.vercel.app-86963088?style=for-the-badge&logo=internet-explorer&logoColor=white&color=869630" alt="Live Site"/></a>
@@ -15,10 +15,10 @@
 
 ## 🚀 Overview
 
-**Flap Trending** is a production-ready, fully-compiled BSC token analytics dashboard built for [flap.sh](https://flap.sh) tokens. This repository distributes the **compiled frontend only** — a drop-in UI that you can self-host on any VPS or static hosting provider.
+**4Trend** is a production-ready, fully-compiled BSC token analytics dashboard built for [four.meme](https://four.meme) tokens. This repository distributes the **compiled frontend only** — a drop-in UI that you can self-host on any VPS or static hosting provider.
 
 > ⚠️ **This repo contains pre-built production files only — no editable source code.**  
-> The backend API server and Telegram bots are **not included** and are operated exclusively by Flap Trending.
+> The backend API server and Telegram bots are **not included** and are operated exclusively by 4Trend.
 
 ---
 
@@ -27,11 +27,11 @@
 | Feature | Description |
 |---|---|
 | 📈 **Trending Tokens** | Real-time rankings updated every 60 seconds via `@flaptrendingbot` |
-| 🆕 **New Pairs** | Newly created flap.sh bonding-curve tokens, refreshed every 10s |
+| 🆕 **New Pairs** | Newly created four.meme bonding-curve tokens, refreshed every 10s |
 | 🚀 **Top Gainers** | Biggest price movers in the last 24 hours |
 | 📉 **Top Losers** | Largest drops — find opportunities before recovery |
 | ⭐ **Watchlist** | Personal token list stored in your browser |
-| 💱 **DEX Swap** | On-chain swap via PancakeSwap V3 + flap.sh bonding curve |
+| 💱 **DEX Swap** | On-chain swap via PancakeSwap V3 + four.meme bonding curve |
 | 🤖 **@flapbuybot** | Full DEX trading bot (buy/sell/sniper/limit orders/referrals) |
 | 🌐 **i18n** | English + Chinese (中文) language support |
 | 🌙 **Dark UI** | Professional dark theme with olive-lime accent (`#869630`) |
@@ -101,12 +101,12 @@ cp deploy/apache.htaccess /home/your-user/public_html/.htaccess
 
 ## 📡 Backend API
 
-The frontend connects to the following backend endpoints. These are **operated by Flap Trending** and proxied through your web server:
+The frontend connects to the following backend endpoints. These are **operated by 4Trend** and proxied through your web server:
 
 | Path | Purpose |
 |---|---|
 | `/api/*` | Core data API |
-| `/flap-gql` | flap.sh GraphQL proxy |
+| `/flap-gql` | four.meme GraphQL proxy |
 | `/moralis-api/*` | Token price data |
 | `/bot-trending` | Live trending bot data |
 
@@ -119,7 +119,7 @@ The frontend connects to the following backend endpoints. These are **operated b
 
 > **⚠️ MANDATORY — Violation disqualifies your use of this template.**
 
-This template includes the **DEX Swap UI** (PancakeSwap V3 + flap.sh bonding curve) and the **@flapbuybot** trading bot UI. Use of these components is permitted under the following rules:
+This template includes the **DEX Swap UI** (PancakeSwap V3 + four.meme bonding curve) and the **@flapbuybot** trading bot UI. Use of these components is permitted under the following rules:
 
 ---
 
@@ -128,7 +128,7 @@ This template includes the **DEX Swap UI** (PancakeSwap V3 + flap.sh bonding cur
 By cloning, forking, or deploying this repository you agree to:
 
 2. **No reverse engineering.** You may not decompile or attempt to extract source code.
-3. **Attribution required.** Display "Powered by Flap Trending" visibly on your deployment.
+3. **Attribution required.** Display "Powered by 4Trend" visibly on your deployment.
 4. **No resale.** You may not sell, sublicense, or claim ownership of this UI.
 4. **BSC only.** This dashboard is designed for Binance Smart Chain only.
 
@@ -154,9 +154,9 @@ By cloning, forking, or deploying this repository you agree to:
 ---
 
 <div align="center">
-  <img src="logo.png" alt="Flap Trending" width="64" />
+  <img src="logo.png" alt="4Trend" width="64" />
   <br/>
-  <strong>Built with ❤️ by the Flap Trending team</strong>
+  <strong>Built with ❤️ by the 4Trend team</strong>
   <br/>
-  <sub>© 2025 Flap Trending — All rights reserved</sub>
+  <sub>© 2025 4Trend — All rights reserved</sub>
 </div>
