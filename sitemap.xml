@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://flaptrending.com/</loc>
+    <loc>https://4trend.vercel.app/</loc>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://flaptrending.com/dashboard</loc>
+    <loc>https://4trend.vercel.app/dashboard</loc>
     <changefreq>daily</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
-    <loc>https://flaptrending.com/dashboard/new-pairs</loc>
+    <loc>https://4trend.vercel.app/dashboard/new-pairs</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flaptrending.com/dashboard/gainers</loc>
+    <loc>https://4trend.vercel.app/dashboard/gainers</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flaptrending.com/dashboard/losers</loc>
+    <loc>https://4trend.vercel.app/dashboard/losers</loc>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://flaptrending.com/dashboard/watchlist</loc>
+    <loc>https://4trend.vercel.app/dashboard/watchlist</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://flaptrending.com/dashboard/swap</loc>
+    <loc>https://4trend.vercel.app/dashboard/swap</loc>
     <changefreq>weekly</changefreq>
     <priority>0.7</priority>
   </url>

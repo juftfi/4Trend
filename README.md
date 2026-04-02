@@ -3,7 +3,7 @@
   <h1>Flap Trending</h1>
   <p><strong>Real-Time BSC Token Analytics Dashboard</strong></p>
   <p>
-    <a href="https://flaptrending.com"><img src="https://img.shields.io/badge/Live-flaptrending.com-86963088?style=for-the-badge&logo=internet-explorer&logoColor=white&color=869630" alt="Live Site"/></a>
+    <a href="https://4trend.vercel.app"><img src="https://img.shields.io/badge/Live-4trend.vercel.app-86963088?style=for-the-badge&logo=internet-explorer&logoColor=white&color=869630" alt="Live Site"/></a>
     <a href="https://t.me/flaptrending"><img src="https://img.shields.io/badge/Telegram-Alerts-blue?style=for-the-badge&logo=telegram" alt="Telegram Alerts"/></a>
     <a href="https://t.me/flaptrendingbot"><img src="https://img.shields.io/badge/Bot-@flaptrendingbot-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram Bot"/></a>
     <img src="https://img.shields.io/badge/Chain-BSC%20Only-F0B90B?style=for-the-badge&logo=binance&logoColor=white" alt="BSC"/>
@@ -111,7 +111,7 @@ The frontend connects to the following backend endpoints. These are **operated b
 | `/bot-trending` | Live trending bot data |
 
 > The backend API server is **not open-source** and is not included in this repository.  
-> You may configure your own proxy to `https://flaptrending.com` or run a compatible server.
+> You may configure your own proxy to `https://4trend.vercel.app` or run a compatible server.
 
 ---
 
@@ -138,7 +138,7 @@ By cloning, forking, or deploying this repository you agree to:
 
 | Platform | Link |
 |---|---|
-| 🌐 Live Dashboard | [flaptrending.com](https://flaptrending.com) |
+| 🌐 Live Dashboard | [4trend.vercel.app](https://4trend.vercel.app) |
 | 📣 Alerts Channel | [t.me/flaptrending](https://t.me/flaptrending) |
 | 💬 Community Group | [t.me/flaptrendingbot](https://t.me/flaptrend) |
 | 🤖 Buy Bot | [@flapbuybot](https://t.me/flapbuybot) |

@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://flaptrending.com/sitemap.xml
+Sitemap: https://4trend.vercel.app/sitemap.xml
