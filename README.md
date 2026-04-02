@@ -26,7 +26,7 @@
 
 | Feature | Description |
 |---|---|
-| 📈 **Trending Tokens** | Real-time rankings updated every 60 seconds via `@flaptrendingbot` |
+| 📈 **Trend Tokens** | Real-time rankings updated every 60 seconds via `@flaptrendingbot` |
 | 🆕 **New Pairs** | Newly created four.meme bonding-curve tokens, refreshed every 10s |
 | 🚀 **Top Gainers** | Biggest price movers in the last 24 hours |
 | 📉 **Top Losers** | Largest drops — find opportunities before recovery |
@@ -42,7 +42,7 @@
 
 <div align="center">
 
-| Trending | New Pairs | DEX Swap |
+| Trend | New Pairs | DEX Swap |
 |:---:|:---:|:---:|
 | Real-time rankings | Bonding curve tokens | On-chain trading |
 
@@ -142,7 +142,7 @@ By cloning, forking, or deploying this repository you agree to:
 | 📣 Alerts Channel | [t.me/flaptrending](https://t.me/flaptrending) |
 | 💬 Community Group | [t.me/flaptrendingbot](https://t.me/flaptrend) |
 | 🤖 Buy Bot | [@flapbuybot](https://t.me/flapbuybot) |
-| 🤖 Trending Bot | [@flaptrendingbot](https://t.me/flaptrendingbot) |
+| 🤖 Trend Bot | [@flaptrendingbot](https://t.me/flaptrendingbot) |
 
 ---
 
