@@ -140,7 +140,7 @@ By cloning, forking, or deploying this repository you agree to:
 |---|---|
 | 🌐 Live Dashboard | [4trend.vercel.app](https://4trend.vercel.app) |
 | 📣 Alerts Channel | [t.me/4Trend](https://x.com/i/communities/2017938772701462969) |
-| 💬 Community Group | [t.me/4trend](https://t.me/flaptrend) |
+| 💬 Community Group | [t.me/4trend](https://x.com/i/communities/2017938772701462969) |
 | 🤖 Buy Bot | [@4trend](https://t.me/4trend) |
 | 🤖 Trend Bot | [@community](https://x.com/i/communities/2017938772701462969) |
 
