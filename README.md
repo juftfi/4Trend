@@ -4,8 +4,8 @@
   <p><strong>Real-Time BSC Token Analytics Dashboard</strong></p>
   <p>
     <a href="https://4trend.vercel.app"><img src="https://img.shields.io/badge/Live-4trend.vercel.app-86963088?style=for-the-badge&logo=internet-explorer&logoColor=white&color=869630" alt="Live Site"/></a>
-    <a href="https://t.me/flaptrending"><img src="https://img.shields.io/badge/Telegram-Alerts-blue?style=for-the-badge&logo=telegram" alt="Telegram Alerts"/></a>
-    <a href="https://t.me/flaptrendingbot"><img src="https://img.shields.io/badge/Bot-@flaptrendingbot-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram Bot"/></a>
+    <a href="https://x.com/i/communities/2017938772701462969"><img src="https://img.shields.io/badge/Telegram-Alerts-blue?style=for-the-badge&logo=telegram" alt="Telegram Alerts"/></a>
+    <a href="https://x.com/i/communities/2017938772701462969"><img src="https://img.shields.io/badge/Bot-@community-2CA5E0?style=for-the-badge&logo=telegram" alt="Telegram Bot"/></a>
     <img src="https://img.shields.io/badge/Chain-BSC%20Only-F0B90B?style=for-the-badge&logo=binance&logoColor=white" alt="BSC"/>
     <img src="https://img.shields.io/badge/License-Custom-red?style=for-the-badge" alt="License"/>
   </p>
@@ -26,13 +26,13 @@
 
 | Feature | Description |
 |---|---|
-| 📈 **Trend Tokens** | Real-time rankings updated every 60 seconds via `@flaptrendingbot` |
+| 📈 **Trend Tokens** | Real-time rankings updated every 60 seconds via `@community` |
 | 🆕 **New Pairs** | Newly created four.meme bonding-curve tokens, refreshed every 10s |
 | 🚀 **Top Gainers** | Biggest price movers in the last 24 hours |
 | 📉 **Top Losers** | Largest drops — find opportunities before recovery |
 | ⭐ **Watchlist** | Personal token list stored in your browser |
 | 💱 **DEX Swap** | On-chain swap via PancakeSwap V3 + four.meme bonding curve |
-| 🤖 **@flapbuybot** | Full DEX trading bot (buy/sell/sniper/limit orders/referrals) |
+| 🤖 **@4trend** | Full DEX trading bot (buy/sell/sniper/limit orders/referrals) |
 | 🌐 **i18n** | English + Chinese (中文) language support |
 | 🌙 **Dark UI** | Professional dark theme with olive-lime accent (`#869630`) |
 
@@ -63,7 +63,7 @@ This is a **static SPA** (Single Page Application). Deploying is simple:
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/flaptrending/web-app-bot.git
+git clone https://github.com/4Trend/web-app-bot.git
 cd web-app-bot
 
 # 2. Copy all files to your web root
@@ -81,7 +81,7 @@ nginx -t && systemctl reload nginx
 
 ```bash
 # 1. Clone this repo
-git clone https://github.com/flaptrending/web-app-bot.git
+git clone https://github.com/4Trend/web-app-bot.git
 
 # 2. Upload all files to your public_html
 cp -r web-app-bot/. /home/your-user/public_html/
@@ -119,7 +119,7 @@ The frontend connects to the following backend endpoints. These are **operated b
 
 > **⚠️ MANDATORY — Violation disqualifies your use of this template.**
 
-This template includes the **DEX Swap UI** (PancakeSwap V3 + four.meme bonding curve) and the **@flapbuybot** trading bot UI. Use of these components is permitted under the following rules:
+This template includes the **DEX Swap UI** (PancakeSwap V3 + four.meme bonding curve) and the **@4trend** trading bot UI. Use of these components is permitted under the following rules:
 
 ---
 
@@ -139,10 +139,10 @@ By cloning, forking, or deploying this repository you agree to:
 | Platform | Link |
 |---|---|
 | 🌐 Live Dashboard | [4trend.vercel.app](https://4trend.vercel.app) |
-| 📣 Alerts Channel | [t.me/flaptrending](https://t.me/flaptrending) |
-| 💬 Community Group | [t.me/flaptrendingbot](https://t.me/flaptrend) |
-| 🤖 Buy Bot | [@flapbuybot](https://t.me/flapbuybot) |
-| 🤖 Trend Bot | [@flaptrendingbot](https://t.me/flaptrendingbot) |
+| 📣 Alerts Channel | [t.me/4Trend](https://x.com/i/communities/2017938772701462969) |
+| 💬 Community Group | [t.me/4trend](https://t.me/flaptrend) |
+| 🤖 Buy Bot | [@4trend](https://t.me/4trend) |
+| 🤖 Trend Bot | [@community](https://x.com/i/communities/2017938772701462969) |
 
 ---
 
